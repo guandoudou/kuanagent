@@ -1,0 +1,18 @@
+{
+  "tick": 12,
+  "scenario": "manufacturing",
+  "state": {
+    "budget": 31,
+    "inventory": 18,
+    "backlog": 94,
+    "queueDepth": 47,
+    "p95DecisionLatency": 11.2
+  },
+  "messages": [
+    {
+      "from": "production",
+      "to": "finance",
+      "content": "Inventory is below safety stock. Request emergency material budget."
+    }
+  ]
+}
